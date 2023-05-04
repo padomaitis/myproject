@@ -1,0 +1,46 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(ShantellSanst.ttf);
+}
+
+html {
+  font-size: 15px;
+}
+.withBorder .largeFont {
+  background-color: #ff0044;
+}
+
+#events {
+  font-size: 36px;
+}
+
+div.withBorder {
+  padding: 15px;
+  margin: 25px;
+  border: 15px solid rgb(120, 120, 0);
+  background-color: #1ec247be;
+}
+
+section ol {
+  border: 15px solid rgb(120, 120, 0);
+  background-color: #944c4a;
+}
+
+.largeFont {
+  font-size: 18px;
+  color: #2b3491;
+  font-family: "Gajraj One";
+  background-color: #1ec247be !important;
+}
+
+ol,
+ul {
+  font-size: 40px;
+}
+
+#divWithImage {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
